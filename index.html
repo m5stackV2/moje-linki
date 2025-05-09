@@ -2,54 +2,70 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Moje Linki</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moje linki</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      text-align: center;
-      padding: 40px;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      padding: 40px 20px;
     }
+
     .container {
-      max-width: 500px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
     }
+
     .avatar {
-      width: 100px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       margin-bottom: 20px;
+      border: 3px solid #ff00ff;
     }
+
     h1 {
-      margin-bottom: 10px;
+      font-size: 24px;
+      margin-bottom: 30px;
     }
-    a.button {
+
+    .button {
       display: block;
-      text-decoration: none;
-      background: #0077ff;
+      background-color: #ff00ff;
       color: white;
       padding: 15px;
       margin: 10px 0;
-      border-radius: 10px;
-      transition: background 0.3s;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
-    a.button:hover {
-      background: #005fcc;
+
+    .button:hover {
+      background-color: #cc00cc;
     }
   </style>
 </head>
 <body>
+
   <div class="container">
-    <img src="https://via.placeholder.com/100" alt="Avatar" class="avatar" />
-    <h1>Twoje Imię</h1>
-    <p>Wszystkie moje linki w jednym miejscu:</p>
+    <img src="https://i.imgur.com/e3zbDWz.gif" alt="Avatar" class="avatar" />
+    <h1>@ryze_0ping</h1>
 
     <a class="button" href="https://www.tiktok.com/@ryze_0ping" target="_blank">TikTok</a>
-    <a class="button" href="https://github.com/m5stackV2/moje-linki" target="_blank">GitHub</#FF00FF>
+    <a class="button" href="https://github.com/m5stackV2/moje-linki" target="_blank">GitHub</a>
+
+    <!-- Możesz dodać kolejne linki tutaj -->
+    <!-- <a class="button" href="https://..." target="_blank">Instagram</a> -->
   </div>
+
 </body>
 </html>
